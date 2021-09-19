@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "roboto";
+    src: url(/Library/Fonts/Roboto-Regular.ttf);
+}
+body{
+    font-family: "roboto";
+}
+.hat{
+    height: 64px;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+}
+.logosAndMenus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuPunkt{
+    display: flex;
+    align-items: flex-start;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+.menuPunkt > img{
+    margin-top: 6px;
+    margin-left: 12px;
+}
+.menuPunkt > a{
+    text-decoration: none;
+    color: black;
+}
+.buttons{
+    display: flex;
+    justify-self: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 24px;
+    width: max-content;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000000;  
+}
+.buttons > button{
+    width:144px;
+    height: 48px;
+    margin-left: 16px;
+    background: #00C805;
+    border: none;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+.everyone{
+    background: #C3F53C;
+    height: 654px;
+    display: grid;
+    grid-template-columns: 629fr 811fr;
+}
+.everText{
+    padding-left: 12%;
+    padding-top: 94px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.24px;
+    color: #000000;
+}
+.everText > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 1.75px;
+    color: #000000;
+    padding-bottom: 31px;
+}
+.everText > button{
+    font-family: "roboto";
+    margin-top: 40px;
+    background: #000000;
+    border-radius: 24px;
+    width: 144px;
+    height: 48px;
+    color: white;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+.everyone > img {
+    margin-top: 32px;
+    margin-left: 3%;
+}
+.disc{
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+.disc > div {
+    margin-left: 13px;
+}
+.whiteRaw{
+    height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+.whiteRaw > div {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.weAre{
+    display: flex;
+    align-items: center;
+}
+.weAre > img {
+    margin-left: 0.8%;
+}
+.weAreText{
+    padding-left: 11px;
+}
+.weAreText > h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 1.75px;
+    color: #000000;
+}
+.weAreText > a{
+    margin-top: 26px;
+    display: flex;
+    font-family: "roboto";
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+.weAreText > a > img{
+    margin-left: 7px;
+}
+.introducing{
+    display: grid;
+    grid-template-columns: 1000fr 500fr;
+    height: 530px;
+}
+.introText{
+    padding-right: 6%;
+    padding-left: 6%;
+}
+.introText > h2{
+    margin-top: 48px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 40px;
+    letter-spacing: 0.32px;
+    color: #000000;
+}
+.underH{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #6F787E;
+    margin-top: 18px;
+}
+.triple{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.oneOfTripple{
+    width: max-content;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+.oneOfTripple > h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+.learn{
+    height:681px;
+    background: #000000;
+    display: grid;
+    grid-template-columns: 875fr 701fr;
+}
+.learnLeft{
+    position: relative;
+    padding-left: 25%;
+    display: flex;
+    align-items: center;
+}
+.strelkiAndText{
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 36px;
+    letter-spacing: 0.24px;
+    color: #545D61;
+}
+.strelkiAndText > div:nth-child(2){
+    color:white;
+}
+.strelkiAndText > div {
+    margin-top: 20px;
+}
+.strelkiAndText > img:nth-child(5){
+    margin-top: 23px;
+}
+.death{
+    position: absolute;
+    left:200px;
+}
+.learnText{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+.learnText > h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 1.75px;
+    color: #FFFFFF;
+    margin-top: 206px;
+}
+.learnText > div {
+    margin-top: 20px;
+    width: max-content;
+}
+.product{
+    background: #F0EBE6;
+    height: 683px;
+    display: grid;
+    grid-template-columns: 1200fr 702fr;
+}
+.productLeft{
+    padding-left: 6%;
+}
+.productLeft > h4{
+    margin-top: 82px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 40px;
+    letter-spacing: 0.32px;
+    color: #000000;
+}
+.productMenu{
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.24px;
+    color: #6F787E;
+}
+.productMenu > div:nth-child(1) {
+    color:black;
+}
+.productMenu > div:nth-child(6) {
+    color: #FF90AF;
+}
+.productLeftText{
+    margin-top: 74px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000000;
+    width: max-content;
+}
+.productLeft > button {
+    background: black;
+    border-radius: 24px;
+    border: none;
+    font-family: "roboto";
+    margin-top: 217px;
+    width: 164px;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 28px;
+    color:white;
+    letter-spacing: 0.25px;
+
+color: #FFFFFF;
+}
+.productRight{
+    position: relative;
+}
+.productRight> img{
+    width:105%;
+    position: absolute;
+    margin-top: 84px;
+    left:-50px;
+}
+.underProduct{
+    background: #F0EBE6;
+    height:88px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.underProduct > div:nth-child(1){
+    height:max-content;
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #6F787E;
+}
+.underProduct > div:nth-child(1) > img{
+    padding-right: 13px;
+}
+.underProduct > div:nth-child(2){
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+footer{
+    font-family: "roboto";
+    background: black;
+    height:850px;
+    padding-top: 54px;
+    padding-left: 4%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-rows: 494fr 333fr;
+}
+.topFooter{
+    display: grid;
+    grid-template-columns: 602fr 838fr;
+}
+.topFooterLeft{
+    display: flex;
+    justify-content: space-between;
+}
+.footerMenuColumn > a{
+    display: block;
+    margin-top: 16px;
+    font-family: "roboto";
+    color:white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+.footerMenuColumn > a:nth-child(1){
+    margin-top: 0;
+}
+.topFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.topFlextopText{
+    margin-right: 3.5%;
+    margin-top: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #79858B;
+    width:max-content;
+}
+.subs{
+    display: flex;
+    padding-right: 12px;
+    justify-content: space-between;
+    padding-left: 37px;
+    padding-top: 18px;
+    margin-top: 10px;
+    width:455px;
+    height:46px;
+    background: #1E2124;
+    border-radius: 32px;
+}
+.subs > input:nth-child(1){
+    height:max-content;
+    z-index: 100;
+    position: relative;
+    font-family: "roboto";
+    background: none;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: rgba(255, 255, 255, 0.5);
+}
+h5{
+    position: absolute;
+    top:3411px;
+    left:790px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.subs > input:nth-child(1):focus ~ h5{
+    transition: 2s;
+    top:3386px;
+    left:790px;
+    font-size: 15px;
+}
+.butSub{
+    width:155px;
+    height:28px;
+    border-radius: 24px;
+    background: #00C805;
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #000000;
+    border:none;
+}
+.legion{
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+.legion:nth-child(3){
+    margin-top: 27px;
+}
+.lineOfBot{
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.greenText{
+    margin-right: 75px;
+    float:right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #00C805;
+}
+.lastElement{
+    margin-top: 34px;
+    display: flex;
+}
+.lastElement > div {
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #79858B;
+}

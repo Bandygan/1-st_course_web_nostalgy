@@ -1,0 +1,126 @@
+@font-face{
+    font-family: "main";
+    
+    src : url("/Library/Fonts/AmericanTypewriter.ttc")
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background:linear-gradient(rgb(51, 49, 49), rgb(29, 26, 26)) 
+}
+.hat{
+    background:linear-gradient(rgba(8,71,8,0.2),rgba(8, 71, 8, 0.966) );
+    color:grey;
+    text-shadow: black 0 0 2px;
+    font-family: "main";
+    border: 2px solid rgb(5, 51, 5);
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 0px 5px 5px black;
+}
+
+.logoImg{  
+    height: 100px;
+    width: 100px;
+    border-radius: 45px 45px 45px 45px;
+    box-shadow: 0px 0px 10px black;  
+}
+.navigationLeft{
+    color:rgb(66, 12, 10);
+    margin-top: 15px;
+    outline:2px solid black;
+    height: 40px;
+    background:radial-gradient(rgb(197, 178, 3) ,rgb(217, 231, 15) )  ; 
+    padding-top:15px;
+    
+}
+
+.mainCart{
+    border: 3px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 40px;
+    height: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px black;  
+    background:rgb(8, 71, 8) ;
+}
+.mainCart:hover{
+    position: relative;
+    top:-5px;
+
+}
+.mainImage{
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+    margin-right: 10px;
+    border: 3px solid rgb(77, 141, 39);
+    border-radius: 5px 5px 5px 5px;
+    
+}
+.mainText{
+    font-family: "main";
+    text-align: left;
+    width:520px;
+    height: 380px;
+    margin-top: 10px;
+    margin-left: 270px;
+    color:grey;
+    text-shadow: black 0 0 2px;
+
+}
+.mainText:hover{
+    background:rgb(2, 31, 2) ;
+}
+.dopCart{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 20px rgba(236, 250, 48 , 0.3);
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border:5px solid rgb(0, 0, 0);
+    background:linear-gradient(to top ,rgba(14, 112, 14, 0.685),rgba(8, 71, 8, 0.966) );
+    float: left;
+    margin: 2.5%;
+}
+.dopCart:hover{
+    position: relative;
+    
+    transform: scale(1.2);
+}
+.dopText{
+    font-family: "main";
+    margin-top: 10px;
+    height: 280px;
+    width :120px;
+    margin-left: 165px;
+    color:gray;
+    text-align: left;
+    word-break:break-all;
+}
+.dopImage{
+    margin: 3px;
+    float:left;
+    margin-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+a{
+    color:rgb(48, 185, 101) 
+}
+h4{
+    text-align: center; 
+    word-break: normal;
+    
+}
+footer{
+    text-align: center;
+    background: rgb(8, 71, 8);
+    color:gray;
+    font-size: 20px;
+    border: 2px solid black;
+}

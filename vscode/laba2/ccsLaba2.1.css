@@ -1,0 +1,93 @@
+@font-face{
+    font-family: "main";
+    src : url("/Library/Fonts/AmericanTypewriter.ttc")
+}
+body {
+    background: pink;
+}
+.mainArticle{
+    height: 400px;
+    background: linear-gradient(#e2463a 40%,rgb(223, 93, 18));
+    border: 2px solid rgb(240, 100, 7);
+    font-family: "main";
+}
+.dopArticle{
+    height: 400px;
+    background: radial-gradient(  rgb(15, 112, 15),rgb(15, 139, 15) , rgb(76, 189, 76));
+    border: 4px solid rgb(84, 58, 201);
+    font-family: "main";
+}
+.allImage{
+    border-radius: 20px 20px 20px 20px;
+    border: 5px solid rgb(255, 187, 0);
+    box-shadow:0px 0px 5px black;
+}
+.hat{
+    background: radial-gradient(rgb(240, 255, 23) ,lightgreen);
+    border: 2px solid rgb(153, 0, 255);
+    font-family: "main";
+}
+.author{
+    background: rgb(64, 64, 233);
+    line-height: 200%;
+    font-family: "main";
+}
+.mainText{
+    background: rgb(241, 241, 75);
+    border: 4px solid orange;
+    font-family: "main";
+}
+.dopText{
+    background: rgb(54, 54, 221);
+    border:4px solid rgb(0, 255, 128);
+    font-family: "main";
+    
+}
+blockquote.citata{
+    background: rgb(255, 180, 41);
+    width: 500px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 2px solid rgb(64, 153, 64);
+    position: relative;
+    font-family: "main";
+}
+.tags{
+    background: tomato;
+    
+}
+.commentZone2{
+    background: linear-gradient( 45deg , rgb(121, 121, 226) 50% , rgb(217, 112, 243) 100%);
+    font-family: "main";
+}
+.comment1{
+    text-align: left;
+    width: 65%;
+    height: 100px;  
+    border-radius: 10px 10px 10px 10px;   
+    background:  linear-gradient(rgba(252, 40, 2, 0.979)20% ,rgba(218, 81, 57, 0.7)50%  , rgba(255, 255, 255, 0.3));
+    border: 4px solid cadetblue;
+    opacity: 0.9;     
+    box-shadow:0px 0px 10px black;
+}
+.comment1:hover{
+   position: relative;
+   top:-2px;
+   left:-2px  
+}
+
+
+
+.nickname1{
+    text-align: left;
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(white 0.5% , rgb(233, 170, 138)10% ,rgb(233, 146, 138)15% , rgb(233, 130, 138)25%,rgb(233, 120, 138)50% , rgb(233, 115, 138)) ;
+}
+.commentText{
+    display: block;
+
+}
+.commentText:hover{
+    box-shadow: 0px 0px 5px black;
+}
+
